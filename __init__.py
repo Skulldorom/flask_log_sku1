@@ -8,7 +8,7 @@ class log:
             emptystring += str(msg)
         self.string = emptystring
         self.main = '[LOG] '
-        self.timestamp = '[ '+str(get_current_time())+' ]'
+        self.timestamp = str(get_current_time())
     def success(self):
         print (self.main,self.timestamp,'[**Success**]',self.string)
     def fail(self):
