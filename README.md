@@ -14,6 +14,9 @@ example:
 from flask_log_sku1 import log
 
 log("Hello world").success()
+log("INFO").info()
+log("WARNING").warning()
+log("ERROR").error()
 ```
 
 options for log() are:
